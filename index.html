@@ -31,7 +31,7 @@
 	</head>
 	<body>
 		<img src="compass.png" id="compass">
-		<img src="needle.png" id="needle">
+		<img src="digital-compass.png" id="needle">
 	</body>
 	<script>
 		document.addEventListener("deviceready", onDeviceReady, false);
@@ -45,7 +45,7 @@
 		function startCompass() {
 
 			var options = {
-				frequency : 50 //sets the compass heading to be updated every 50 milliseconds
+				frequency : 20 //sets the compass heading to be updated every 50 milliseconds
 			};
 
 			navigator.compass.watchHeading(onSuccess, onError, options);
