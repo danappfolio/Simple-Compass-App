@@ -3,17 +3,17 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.camperful.camperful"
+        id        = "com.appfolio.simplecompass"
         version   = "1.0.0">
 
-    <name>Camperful Compass</name>
+    <name>Simple Compass</name>
 
     <description>
-        Camperful Simple Compass
+        Simple Compass
     </description>
 
-    <author href="http://camperful.com" email="support@camperful.com">
-        Camperful.com
+    <author href="http://appfolio.com" email="dan.lin@appfolio.com">
+        appfolio.com
     </author>
 
     <!--
